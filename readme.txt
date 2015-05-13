@@ -14,7 +14,7 @@ Simpler management of DFP (DoubleClick for Publishers) ad positions
 
 **For simple management of DoubleClick for Publishers ad positions.**
 
-Follow development of the plugin on [Github.com/ThatGerber/dfp-ads](http://github.com/ThatGerber/dfp-ads]
+Follow development of the plugin on [Github.com/ThatGerber/dfp-ads](http://github.com/ThatGerber/dfp-ads)
 
 == Installation ==
 
