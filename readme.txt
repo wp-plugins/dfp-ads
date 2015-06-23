@@ -37,6 +37,11 @@ Follow development of the plugin on [Github.com/ThatGerber/dfp-ads](http://githu
 
 == Screenshots ==
 
+1. Full Ad Positions Page
+2. Individual Ad Positions Page
+3. Position Settings Page
+4. Position Import Page
+
 Visit [chriswgerber.com/dfp-ads/](http://www.chriswgerber.com/dfp-ads/) for screenshots and more information.
 
 == Frequently Asked Questions ==
