@@ -1,6 +1,6 @@
 === DFP Ad Manager ===
 
-Stable tag: 0.2.3
+Stable tag: 0.2.4
 Contributors: chriswgerber
 Requires at least: 3.0.0
 Tested up to: 4.2.2
@@ -57,6 +57,10 @@ Submit your questions at [chriswgerber.com/contact/](http://www.chriswgerber.com
 There was an issue in the build process that has been fixed. Please upgrade immediately.
 
 == Changelog ==
+
+= 0.2.4
+
+* Fixes build
 
 = 0.2.3
 
