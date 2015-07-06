@@ -1,6 +1,6 @@
 === DFP Ad Manager ===
 
-Stable tag: trunk
+Stable tag: 0.2.1
 Contributors: chriswgerber
 Requires at least: 3.0.0
 Tested up to: 4.2.2
@@ -58,10 +58,7 @@ Submit your questions at [chriswgerber.com/contact/](http://www.chriswgerber.com
 
 = 0.2.1
 
-* Bug Fix: Added extra check to make sure plugin didn't attempt to add other CPTs as ad positions.
-* Enhancement: Added linting and uglifying to JS. Now serving minified JS.
-* Enhancement: Updated directory structure
-* Enhancement: Updated Readme to include screenshots and more information.
+* Fixed issue where settings were not being called.
 
 = 0.2.0
 
