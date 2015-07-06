@@ -1,6 +1,0 @@
-index.php
-plugin.php
-readme.txt
-assets/
-includes/
-widget/
