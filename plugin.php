@@ -13,7 +13,7 @@
  * Text Domain:       dfp-ads
  * Github Plugin URI: https://github.com/ThatGerber/dfp-ads
  * GitHub Branch:     stable
- * Version:           0.2.5
+ * Version:           0.3.0
  *
  * The Plugin File
  *
@@ -68,7 +68,7 @@ $dfp_ads->set_account_id( dfp_get_settings_value( 'dfp_property_code' ) );
  * Enqueues the styles and scripts into WordPress. When this action runs
  * it also will grab all of the positions and other filtered in information
  */
-add_action( 'wp_enqueue_scripts', array( $dfp_ads, 'scripts_and_styles' ) );
+add_action( 'wp_enqueue_scripts', array( $dfp_ads, 'scripts_and_styles' ), 100 );
 
 /* Sets Menu Position. Default 20 */
 add_filter( 'dfp_ads_menu_position', ( function( $pos ) { return 79; }), 10 );
@@ -160,6 +160,16 @@ if ( is_admin() ) {
 			'title'       => 'DFP Property Code',
 			'section'     => 'general_settings',
 			'description' => 'Enter your DoubleClick for Publishers Property Code.'
+		);
+
+		$fields['dfp_synchronous_tags'] = array(
+			'id'          => 'dfp_synchronous_tags',
+			'field'       => 'checkbox',
+			'callback'    => 'checkbox',
+			'title'       => 'Use Synchronous Ad Tags',
+			'section'     => 'general_settings',
+			'description' => '<em>DFP Ad Manager uses asynchronous tags by default. Choose this option if
+								your site is unable to support DoubleClick\'s asynchronous tags</em>'
 		);
 
 		return $fields;
